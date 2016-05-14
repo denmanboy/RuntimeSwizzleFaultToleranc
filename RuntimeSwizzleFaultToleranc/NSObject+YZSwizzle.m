@@ -2,7 +2,7 @@
 //  NSObject+YZSwizzle.m
 //  YZValue
 //
-//  Created by dengyanzhou on 15/10/5.
+//  Created by denman on 15/10/5.
 //  Copyright © 2015年 sina. All rights reserved.
 //
 
