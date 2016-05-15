@@ -26,7 +26,7 @@
     if ([self respondsToSelector:aSelector]) {
         if ([self isHasReturnValue:aSelector]) {
             MethodIMP iMP = (MethodIMP)[self methodForSelector:aSelector];
-            iMP(self,aSelector);
+            return iMP(self,aSelector);
         }else{
             VMethodIMP iMP = (VMethodIMP)[self methodForSelector:aSelector];
             iMP(self, aSelector);return nil;
